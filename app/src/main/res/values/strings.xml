@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FaceRecognitionApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result_match">ResultMatch</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

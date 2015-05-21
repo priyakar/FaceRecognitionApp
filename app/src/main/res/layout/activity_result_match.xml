@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/circle_process_background"
+        android:rotation="-90" />
+
+    <ProgressBar
+        android:id="@+id/circle_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/circle_process_foreground"
+        android:rotation="-90" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView"
+        android:textSize="42dp"
+        android:paddingTop="10px"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I know you!"
+        android:fontFamily="sans-serif"
+        android:textSize="42dp"
+        android:paddingTop="10px"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>
